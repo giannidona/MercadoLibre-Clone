@@ -121,4 +121,27 @@ header .container {
   text-decoration: none;
 }
 
+#products p {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+#products a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+.card-product {
+  max-width: 250px;
+  height: 270px;
+  border-radius: 2px;
+}
+.card-product img {
+  max-width: 240px;
+}
+.card-product a {
+  text-decoration: none;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
