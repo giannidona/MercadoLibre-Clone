@@ -46,6 +46,7 @@ header .container {
   color: #333;
   position: relative;
   z-index: 915;
+  outline: none;
 }
 .search__bar button {
   position: absolute;
@@ -69,6 +70,7 @@ header .container {
 .street {
   grid-area: bottom-left;
   display: flex;
+  padding-top: 9px;
 }
 .street a {
   color: rgba(51, 51, 51, 0.6);
@@ -76,6 +78,7 @@ header .container {
 }
 .street .direc {
   padding-left: 4px;
+  font-size: 14px;
 }
 
 .nav__bar {
@@ -86,7 +89,8 @@ header .container {
   display: inline-flex;
   justify-content: center;
   padding-right: 3px;
-  padding-top: 7px;
+  padding-top: 8px;
+  font-size: 14px;
 }
 .nav__bar ul li a {
   color: rgba(51, 51, 51, 0.6);
@@ -99,10 +103,21 @@ header .container {
 .account nav {
   display: flex;
   justify-content: space-around;
-  padding-top: 7px;
+  padding-top: 8px;
+  font-size: 14px;
 }
 .account nav a {
   color: rgba(51, 51, 51, 0.6);
+  text-decoration: none;
+}
+.account .user span {
+  color: rgba(51, 51, 51, 0.6);
+}
+
+#payments-methods p {
+  margin-bottom: 0 !important;
+}
+#payments-methods a {
   text-decoration: none;
 }
 

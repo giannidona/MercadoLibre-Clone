@@ -29,6 +29,7 @@ header {
     color: #333;
     position: relative;
     z-index: 915;
+    outline: none;
   }
   button {
     position: absolute;
@@ -53,12 +54,14 @@ header {
 .street {
   grid-area: bottom-left;
   display: flex;
+  padding-top: 9px;
   a {
     color: rgba(51, 51, 51, 0.6);
     text-decoration: none;
   }
   .direc {
     padding-left: 4px;
+    font-size: 14px;
   }
 }
 
@@ -69,7 +72,8 @@ header {
     display: inline-flex;
     justify-content: center;
     padding-right: 3px;
-    padding-top: 7px;
+    padding-top: 8px;
+    font-size: 14px;
     a {
       color: rgba(51, 51, 51, 0.6);
       text-decoration: none;
@@ -82,10 +86,16 @@ header {
   nav {
     display: flex;
     justify-content: space-around;
-    padding-top: 7px;
+    padding-top: 8px;
+    font-size: 14px;
     a {
       color: rgba(51, 51, 51, 0.6);
       text-decoration: none;
+    }
+  }
+  .user {
+    span {
+      color: rgba(51, 51, 51, 0.6);
     }
   }
 }
